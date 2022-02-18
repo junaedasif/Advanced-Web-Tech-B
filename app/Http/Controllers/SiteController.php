@@ -16,5 +16,8 @@ function About(){
 function Contact(){
     return view('ContactPage');
 }
+// function Login(){
+//     return view('login');
+// }
 
 }
