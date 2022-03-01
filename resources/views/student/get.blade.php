@@ -9,7 +9,7 @@
 <h1>Get</h1>
 <h4>Name: {{$name}}</h4>
 <h4>Id: {{$id}}</h4>
-<h3>Course 1: {{$course[0]}}</h3>
+{{-- <h3>Course 1: {{$course[]}}</h3> --}}
 
 <ul>
     @for($i=0;$i<count($course);$i++)

@@ -28,3 +28,5 @@ Route::get('/register',[PagesController::Class,'Register']);
 Route::get('/student/create',[StudentController::Class,'create']);
 Route::get('/student/get',[StudentController::Class,'get']);
 Route::get('/student/list',[StudentController::Class,'list']);
+
+Route::get('/student/details/{id}/{name}',[StudentController::Class,'details']);
